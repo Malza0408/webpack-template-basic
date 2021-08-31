@@ -13,8 +13,8 @@ module.exports = {
   output: {
     // 첫번째 인수와 두번째 인수 경로를 합쳐준다.
     // __dirname 은 전역변수로 현재 이 파일(webpack.config.js)의 경로이다.
-    // path: path.resolve(__dirname, 'dist'),
-    // filename: 'main.js',
+    // path: path.resolve(__dirname, 'public'),
+    // filename: 'app.js',
     // 결과적으로 파일경로 상에서 public 이란 폴더를 만들고 app.js 라는 결과물을 뱉어낸다.
     // 구성 옵션을 바꿔도 기존의 결과물이 남아있다. clean 으로 필요없는 파일 삭제 가능
     clean: true,
